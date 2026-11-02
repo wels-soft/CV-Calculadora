@@ -1,0 +1,34 @@
+/* asi se escribe un comentario - forma 1 para afectar al html */
+body { background-color: #f0f0f0; margin: 30px; }
+
+/* forma 2 para afectar al html */
+.contenedor { background-color: white; padding: 25px; max-width: 700px; margin: 0 auto 20px; border-radius: 20px; }
+
+/* forma 3 para afectar al html aqui se usa un id */
+#titulo { color: #004080; text-align: center; }
+h2 { color: #0066aa; border-bottom: 1px solid #ccc; margin-bottom: 15px; }
+h2:hover { color: red; }
+li:first-child { list-style: none; }
+li:last-child { font-size: 20px; color: blue; }
+
+/* CALCULADORA */
+.pantalla-calc { 
+    width: 100%; 
+    padding: 15px; 
+    font-size: 24px; 
+    text-align: right; 
+    color: #212529; 
+    background-color: #e9ecef; 
+    border: 1px solid #ced4da; 
+    border-radius: 6px; 
+    box-sizing: border-box; 
+    margin-bottom: 15px; 
+}
+
+.grid-calculadora { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; }
+.grid-calculadora button { padding: 15px; font-size: 18px; font-weight: bold; color: white; background-color: #0d6efd; border: none; border-radius: 6px; cursor: pointer; }
+.grid-calculadora button:hover { opacity: 0.85; }
+
+.btn-operador { background-color: #6c757d !important; }
+.btn-limpiar { background-color: #dc3545 !important; }
+.btn-igual { background-color: #198754 !important; }
